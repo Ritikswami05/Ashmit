@@ -1,0 +1,79 @@
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+  /* Adjust slider for tablets */
+  .flexslider {
+    border: 3px solid #eee;
+  }
+
+  .flex-control-nav {
+    bottom: -30px;
+  }
+
+  .flex-direction-nav a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust slider for mobile devices */
+  .flexslider {
+    border: 2px solid #ddd;
+  }
+
+  .flex-control-nav {
+    bottom: -20px;
+  }
+
+  .flex-direction-nav a {
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+  }
+
+  .flex-control-thumbs li {
+    width: 33.33%; /* Thumbnails stack more compactly */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Adjust slider for smaller phones */
+  .flexslider {
+    border: 1px solid #ccc;
+  }
+
+  .flex-direction-nav a {
+    font-size: 16px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  .flex-control-nav {
+    bottom: -10px;
+  }
+
+  .flex-control-thumbs li {
+    width: 50%; /* Thumbnails stack in two columns */
+  }
+}
+
+@media screen and (max-width: 360px) {
+  /* Extra small screens */
+  .flexslider {
+    border: none;
+  }
+
+  .flex-direction-nav a {
+    font-size: 12px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+  }
+
+  .flex-control-thumbs li {
+    width: 100%; /* Thumbnails stack in a single column */
+  }
+}
